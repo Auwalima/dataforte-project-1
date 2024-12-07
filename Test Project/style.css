@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF6EB;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.logo span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.nav-links a:hover{
+    color: #ff7f50;
+}
+
+.auth-buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+button{
+    padding: 0.8rem 1.3rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+button.sign-up{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ff7f50;
+}
+
+.sign-up:hover{
+    background-color: #ff7f50;
+    color: white;
+}
+
+button.get-started{
+    background-color: #ff7f50;
+    color: white;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: calc(100vh - 100px);
+}
+
+.content {
+    max-width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.8rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    padding: 0.2rem 0.4rem;
+    border-radius: 15px;
+}
+
+.speed-content {
+    background-color: lightblue;
+}
+
+.speed-content:hover{
+    background-color: #fcbaa2;
+}
+
+.blockchains-content {
+    background-color: #fcbaa2;
+}
+
+.blockchains-content:hover {
+    background-color: lightblue;
+}
+
+p{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.try-for-free {
+    background-color: #ff7f50;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
